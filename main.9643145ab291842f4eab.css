@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #CD4B2C;
+  --secondary-color: #0070D4;
+  --light-color1: #D3DBE0;
+  --light-color2: #FFEDDF;
+  --dark-color: #0D1321;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-background {
+  background-image: url(imgs/collection-of-construction-safety-helmet-38070.c63629465f4e177e5863d70cab5ee1fe.jpg);
+  /* https://www.pexels.com/id-id/foto/38070/ */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .65;
+  height: 100%;
+}
+
+.page-container {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.page-container span {
+  background-color: #111;
+  color: #ffffff;
+  padding: 18px;
+  margin: -1px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
